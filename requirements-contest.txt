@@ -1,0 +1,11 @@
+# 补充依赖；保留赛机镜像预装的 PPU torch / vllm，勿用通用 pip 包覆盖。
+python-docx==1.2.0
+# Tool schemas are validated in the SDK control environment, not the PPU env.
+jsonschema==4.26.0
+# 可选 CPU chat-template 路径：tokenizers>=0.22,<0.23 和 Jinja2>=3.1.6,<4。
+# 源码环境可安装 .[contest-cpu]；不安装/替换厂商 torch 或 vLLM。
+# SDK 控制环境：官方 tongagents 2.7.20 cp312 Linux x86_64 wheel。
+# wheel SHA256: 3c892211414f03fca02747dedd08572b0ebd379a98f712c5b3cd39330d71016b
+# 安装在 /workspace 的独立虚拟环境；不安装到厂商 PPU torch/vLLM 环境。
+# tokenizer-only 控制环境已使用 transformers==5.2.0；真实验收证据须匹配 SDK/适配器。
+# 不使用公共 PyPI 同名包，不以 pip/import 或模拟回执代替真实四阶段验收。

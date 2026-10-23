@@ -1,0 +1,1 @@
+{"schema_version":1,"workflow":"whole","input_budget":8192,"output_budget":4096,"batch_size":1,"overlap":1,"seed":17,"prompt":"source-fragment-v1","engine_parameters":{}}

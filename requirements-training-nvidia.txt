@@ -1,0 +1,15 @@
+# Optional NVIDIA training environment; never install into a vendor PPU runtime.
+# Install a CUDA-compatible torch>=2.9 separately, then constrain that exact torch
+# version when installing this file: dependencies below can otherwise pull torch.
+# API minimums follow benchmark_lora.py and train_lora_nvidia.py. This is not a
+# hardware-validated lockfile; record resolved versions in each run's manifest.
+transformers>=5.18,<6
+accelerate>=1.15,<2
+peft>=0.21.2,<1
+liger-kernel>=0.8.4,<1
+packaging>=24
+safetensors>=0.4.5,<1
+
+# Optional QLoRA mode: install a bitsandbytes build supported by your CUDA stack.
+# Optional flash_attention_2 mode: install a compatible flash-attn build.
+# Neither optional kernel is required for the documented bf16-sharded/sdpa path.

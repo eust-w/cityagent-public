@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "abi": "cityagent-pure-strategy-v1",
+  "source": "def choose_action(state):\n    return base_action(state)\n\ndef propose_candidates(history, search_state):\n    return default_candidates(history, search_state)\n\ndef update_search(search_state, outcomes):\n    return default_search(search_state, outcomes)\n",
+  "config": {
+    "schema_version": 1,
+    "workflow": "chunked",
+    "input_budget": 8192,
+    "output_budget": 4096,
+    "batch_size": 1,
+    "overlap": 1,
+    "seed": 17,
+    "prompt": "source-fragment-v1",
+    "engine_parameters": {}
+  },
+  "parent_sha256": null
+}

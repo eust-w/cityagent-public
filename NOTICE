@@ -1,0 +1,8 @@
+CityAgent / BridgeEvidence
+Copyright 2026 CityAgent contributors
+
+This public source edition contains the CityAgent bridge inspection report
+extraction code and synthetic tests. It does not include inspection datasets,
+model weights, adapters, or proprietary SDK distributions.
+
+See THIRD_PARTY_NOTICES.md for separately licensed dependencies.

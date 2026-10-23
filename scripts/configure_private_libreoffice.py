@@ -1,0 +1,186 @@
+#!/usr/bin/env python3
+"""Configure an already extracted, relocated LibreOffice under /workspace.
+
+The private directory must contain root/usr/lib/libreoffice/program and
+root/usr/lib/x86_64-linux-gnu. No packages are installed and no converter or
+model is started. Add the returned bin directory to the inference process PATH;
+run.py continues to supply an independent UserInstallation for each conversion.
+"""
+
+from __future__ import annotations
+
+import argparse
+import fcntl
+import hashlib
+import json
+import os
+import shlex
+import stat
+from pathlib import Path
+from uuid import uuid4
+
+EXECUTABLES = ("soffice", "soffice.bin", "oosplash")
+REQUIRED_FILES = EXECUTABLES + (
+    "fundamentalrc", "bootstraprc", "sofficerc", "unorc", "services.rdb",
+    "types.rdb", "services/services.rdb", "libuno_cppuhelpergcc3.so.3",
+    "libuno_cppu.so.3", "libuno_sal.so.3",
+)
+
+
+def digest(path: Path) -> str:
+    with path.open("rb") as stream:
+        return hashlib.file_digest(stream, "sha256").hexdigest()
+
+
+def contained(path: Path, boundary: Path) -> Path:
+    resolved = path.resolve()
+    if resolved == boundary or not resolved.is_relative_to(boundary):
+        raise ValueError(f"path resolves outside private directory: {path}")
+    return resolved
+
+
+def writable_path(path: Path, private: Path) -> None:
+    contained(path, private)
+    for item in (path, *path.parents):
+        if item == private:
+            break
+        if item.is_symlink():
+            raise ValueError(f"refusing a symlink in output path: {item}")
+
+
+def atomic_write(path: Path, content: bytes, mode: int) -> None:
+    temporary = path.with_name(f".{path.name}.pending-{uuid4().hex}")
+    try:
+        fd = os.open(temporary, os.O_WRONLY | os.O_CREAT | os.O_EXCL | os.O_NOFOLLOW, mode)
+        with os.fdopen(fd, "wb") as stream:
+            stream.write(content)
+            os.fchmod(stream.fileno(), mode)
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temporary, path)
+        directory_fd = os.open(path.parent, os.O_RDONLY | os.O_DIRECTORY)
+        try:
+            os.fsync(directory_fd)
+        finally:
+            os.close(directory_fd)
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
+def configure(private_root: Path, *, workspace: Path = Path("/workspace")) -> dict:
+    """The workspace argument is a test seam; the CLI always enforces /workspace."""
+    workspace = workspace.resolve(strict=True)
+    private = private_root.resolve(strict=True)
+    if private == workspace or not private.is_relative_to(workspace) or not private.is_dir():
+        raise ValueError("private root must be an existing strict descendant of /workspace")
+    if ":" in str(private) or any(ord(char) < 32 for char in str(private)):
+        raise ValueError("private path must not contain a colon or control character")
+    package = contained(private / "root", private)
+    program = contained(package / "usr/lib/libreoffice/program", package)
+    multiarch = contained(package / "usr/lib/x86_64-linux-gnu", package)
+    if not program.is_dir() or not multiarch.is_dir():
+        raise ValueError("required program or multiarch library directory is missing")
+    files = {}
+    for name in REQUIRED_FILES:
+        path = contained(program / name, package)
+        if not path.is_file() or not path.stat().st_size:
+            raise ValueError(f"required nonempty converter file is missing: {name}")
+        if name in EXECUTABLES and not os.access(path, os.X_OK):
+            raise ValueError(f"converter program is not executable: {name}")
+        files[name] = {"path": str(path), "sha256": digest(path)}
+
+    bin_dir = private / "bin"
+    wrapper = bin_dir / "soffice"
+    receipt = bin_dir / "soffice-configuration.json"
+    lock_path = bin_dir / ".soffice-configuration.lock"
+    runtime = private / "runtime"
+    paths = {key: runtime / name for key, name in (
+        ("XDG_CACHE_HOME", "cache"), ("XDG_CONFIG_HOME", "config"),
+        ("XDG_DATA_HOME", "data"), ("TMPDIR", "tmp"),
+    )}
+    directories = [bin_dir, runtime, *paths.values()]
+    for path in [*directories, wrapper, receipt, lock_path]:
+        writable_path(path, private)
+        valid_type = path.is_dir() if path in directories else path.is_file()
+        if path.exists() and not valid_type:
+            raise ValueError(f"unexpected output path type: {path}")
+    for directory in directories:
+        directory.mkdir(mode=0o700, exist_ok=True)
+
+    # This ordering is essential: UNO derives unorc from the loaded cppuhelper
+    # library's directory. Loading a multiarch alias first points at no unorc.
+    environment = {
+        "LD_LIBRARY_PATH": f"{program}:{multiarch}",
+        **{name: str(path) for name, path in paths.items()},
+        "SAL_USE_VCLPLUGIN": "svp",
+        "URE_BOOTSTRAP": "vnd.sun.star.pathname:" + str(program / "fundamentalrc"),
+        "UNO_PATH": str(program),
+        "SAL_DISABLE_OPENCL": "1",
+    }
+    content = (
+        "#!/bin/sh\n# Generated by configure_private_libreoffice.py\n"
+        + "".join(f"export {key}={shlex.quote(value)}\n" for key, value in environment.items())
+        + "exec " + shlex.quote(str(program / "soffice")) + ' "$@"\n'
+    ).encode()
+    lock_fd = os.open(lock_path, os.O_WRONLY | os.O_CREAT | os.O_NOFOLLOW, 0o600)
+    try:
+        fcntl.flock(lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        for path in (wrapper, receipt):
+            writable_path(path, private)
+        previous = None
+        changed = (
+            not wrapper.is_file() or wrapper.read_bytes() != content
+            or not os.access(wrapper, os.X_OK)
+        )
+        if changed and wrapper.exists():
+            previous = wrapper.with_name("soffice.previous-" + digest(wrapper))
+            writable_path(previous, private)
+            if previous.exists():
+                if not previous.is_file() or previous.read_bytes() != wrapper.read_bytes():
+                    raise ValueError("existing rollback copy differs from current wrapper")
+            else:
+                atomic_write(previous, wrapper.read_bytes(), stat.S_IMODE(wrapper.stat().st_mode))
+        elif receipt.is_file():
+            old = json.loads(receipt.read_text())
+            if isinstance(old, dict) and old.get("previous_wrapper"):
+                previous = Path(old["previous_wrapper"])
+                if not previous.is_absolute() or previous.parent != bin_dir:
+                    raise ValueError("previous wrapper receipt points outside private bin")
+                writable_path(previous, private)
+                if not previous.is_file() or digest(previous) != old.get("previous_wrapper_sha256"):
+                    raise ValueError("previous wrapper receipt no longer matches its rollback copy")
+        if changed:
+            atomic_write(wrapper, content, 0o755)
+        result = {
+            "schema_version": 1,
+            "private_root": str(private),
+            "bin_dir": str(bin_dir),
+            "wrapper": str(wrapper),
+            "wrapper_sha256": digest(wrapper),
+            "previous_wrapper": str(previous) if previous else None,
+            "previous_wrapper_sha256": digest(previous) if previous else None,
+            "environment": environment,
+            "required_files": files,
+            "receipt": str(receipt),
+            "changed": changed,
+            "version_and_conversion_verified": False,
+        }
+        atomic_write(receipt, (json.dumps(result, ensure_ascii=False, indent=2) + "\n").encode(), 0o600)
+        return result
+    finally:
+        os.close(lock_fd)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--private-root", type=Path, required=True)
+    args = parser.parse_args()
+    try:
+        result = configure(args.private_root)
+    except (OSError, ValueError) as error:
+        parser.exit(1, f"Private LibreOffice configuration failed: {error}\n")
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,35 @@
+{
+  "description": "Selected public defense slide renderings; excludes notes, embedded workbooks and report examples.",
+  "slides": [
+    {
+      "file": "cover.png",
+      "slide": 1,
+      "sha256": "e0b6ae548b6e79aa88fec3e362e75baf1ab8dd7c89a25a593d24c0ca81b926b3",
+      "bytes": 1696824
+    },
+    {
+      "file": "problem.png",
+      "slide": 3,
+      "sha256": "0c233597d4eb7b722ef757ae94a92e17f72823060ced5bce0e52d6232275fb80",
+      "bytes": 204219
+    },
+    {
+      "file": "architecture.png",
+      "slide": 7,
+      "sha256": "df3ac84e09eec62150111270c2fd6459d47ba7ff4df400360ba1de96728b332c",
+      "bytes": 261624
+    },
+    {
+      "file": "training-deployment.png",
+      "slide": 14,
+      "sha256": "ad73658371ba05a6e1b52aa4de91ac2d3a1ff05d029f821dc0b4f42c97fdb0af",
+      "bytes": 142708
+    },
+    {
+      "file": "execution-experiments.png",
+      "slide": 16,
+      "sha256": "35808f64f96d6bc665fb2c90faa77bbb07c1d900d4ed7e19a60d7f7438c8527a",
+      "bytes": 157545
+    }
+  ]
+}

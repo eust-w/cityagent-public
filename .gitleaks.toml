@@ -1,0 +1,11 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Exact SHA-256 values of offline tokenizer test assets, not credentials"
+regexTarget = "secret"
+regexes = [
+  '''^5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42$''',
+  '''^316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8$''',
+  '''^5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b$'''
+]

@@ -1,0 +1,684 @@
+{
+  "fixture_kind": "synthetic-only-no-model-receipts",
+  "description": "Entirely fictional evidence for managed pagination, replay and version-bound projection tests.",
+  "arguments": {
+    "limit": 10
+  },
+  "handoff_evidence": {
+    "synthetic-fact-00": {
+      "task_id": "synthetic-task-00",
+      "entry_id": "synthetic-entry-00",
+      "section": "基本信息",
+      "field": "合成观察",
+      "candidate_value": "虚构桥梁试验段 1 的合成观察",
+      "source_refs": [
+        {
+          "evidence_id": "synthetic-row-00",
+          "start": 0,
+          "end": 1368
+        }
+      ],
+      "source_excerpts": [
+        {
+          "evidence_id": "synthetic-row-00",
+          "start": 0,
+          "end": 1368,
+          "text": "第00项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第01项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第02项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第03项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第04项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第05项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第06项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第07项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第08项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第09项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第10项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第11项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第12项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第13项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第14项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第15项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第16项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第17项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第18项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第19项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第20项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第21项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第22项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第23项合成描述：虚构桥梁测试构件的检测位置为第1跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n",
+          "source_path": "synthetic/document/body/table[0]/row[1]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 1,
+            "cells": [
+              "虚构构件",
+              "虚构桥梁试验段 1 的合成观察"
+            ],
+            "context": {
+              "year": "2020"
+            }
+          }
+        }
+      ],
+      "table_headers": [
+        {
+          "evidence_id": "synthetic-header-0",
+          "start": 0,
+          "end": 9,
+          "text": "虚构构件｜合成观察",
+          "source_path": "synthetic/document/body/table[0]/row[0]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 0
+          }
+        }
+      ],
+      "model_context": {
+        "bridge": "虚构桥梁",
+        "year": "2020"
+      },
+      "unresolved": [],
+      "semantic_approval": false,
+      "excerpts_are_verbatim_not_model_summary": true
+    },
+    "synthetic-fact-01": {
+      "task_id": "synthetic-task-01",
+      "entry_id": "synthetic-entry-01",
+      "section": "基本信息",
+      "field": "合成观察",
+      "candidate_value": "虚构桥梁试验段 2 的合成观察",
+      "source_refs": [
+        {
+          "evidence_id": "synthetic-row-01",
+          "start": 0,
+          "end": 1368
+        }
+      ],
+      "source_excerpts": [
+        {
+          "evidence_id": "synthetic-row-01",
+          "start": 0,
+          "end": 1368,
+          "text": "第00项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第01项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第02项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第03项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第04项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第05项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第06项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第07项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第08项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第09项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第10项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第11项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第12项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第13项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第14项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第15项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第16项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第17项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第18项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第19项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第20项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第21项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第22项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第23项合成描述：虚构桥梁测试构件的检测位置为第2跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n",
+          "source_path": "synthetic/document/body/table[0]/row[2]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 2,
+            "cells": [
+              "虚构构件",
+              "虚构桥梁试验段 2 的合成观察"
+            ],
+            "context": {
+              "year": "2020"
+            }
+          }
+        }
+      ],
+      "table_headers": [
+        {
+          "evidence_id": "synthetic-header-0",
+          "start": 0,
+          "end": 9,
+          "text": "虚构构件｜合成观察",
+          "source_path": "synthetic/document/body/table[0]/row[0]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 0
+          }
+        }
+      ],
+      "model_context": {
+        "bridge": "虚构桥梁",
+        "year": "2020"
+      },
+      "unresolved": [],
+      "semantic_approval": false,
+      "excerpts_are_verbatim_not_model_summary": true
+    },
+    "synthetic-fact-02": {
+      "task_id": "synthetic-task-02",
+      "entry_id": "synthetic-entry-02",
+      "section": "基本信息",
+      "field": "合成观察",
+      "candidate_value": "虚构桥梁试验段 3 的合成观察",
+      "source_refs": [
+        {
+          "evidence_id": "synthetic-row-02",
+          "start": 0,
+          "end": 1368
+        }
+      ],
+      "source_excerpts": [
+        {
+          "evidence_id": "synthetic-row-02",
+          "start": 0,
+          "end": 1368,
+          "text": "第00项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第01项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第02项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第03项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第04项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第05项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第06项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第07项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第08项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第09项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第10项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第11项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第12项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第13项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第14项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第15项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第16项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第17项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第18项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第19项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第20项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第21项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第22项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第23项合成描述：虚构桥梁测试构件的检测位置为第3跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n",
+          "source_path": "synthetic/document/body/table[0]/row[3]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 3,
+            "cells": [
+              "虚构构件",
+              "虚构桥梁试验段 3 的合成观察"
+            ],
+            "context": {
+              "year": "2020"
+            }
+          }
+        }
+      ],
+      "table_headers": [
+        {
+          "evidence_id": "synthetic-header-0",
+          "start": 0,
+          "end": 9,
+          "text": "虚构构件｜合成观察",
+          "source_path": "synthetic/document/body/table[0]/row[0]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 0
+          }
+        }
+      ],
+      "model_context": {
+        "bridge": "虚构桥梁",
+        "year": "2020"
+      },
+      "unresolved": [],
+      "semantic_approval": false,
+      "excerpts_are_verbatim_not_model_summary": true
+    },
+    "synthetic-fact-03": {
+      "task_id": "synthetic-task-03",
+      "entry_id": "synthetic-entry-03",
+      "section": "基本信息",
+      "field": "合成观察",
+      "candidate_value": "虚构桥梁试验段 4 的合成观察",
+      "source_refs": [
+        {
+          "evidence_id": "synthetic-row-03",
+          "start": 0,
+          "end": 1368
+        }
+      ],
+      "source_excerpts": [
+        {
+          "evidence_id": "synthetic-row-03",
+          "start": 0,
+          "end": 1368,
+          "text": "第00项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第01项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第02项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第03项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第04项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第05项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第06项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第07项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第08项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第09项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第10项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第11项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第12项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第13项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第14项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第15项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第16项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第17项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第18项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第19项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第20项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第21项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第22项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第23项合成描述：虚构桥梁测试构件的检测位置为第4跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n",
+          "source_path": "synthetic/document/body/table[0]/row[4]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 4,
+            "cells": [
+              "虚构构件",
+              "虚构桥梁试验段 4 的合成观察"
+            ],
+            "context": {
+              "year": "2020"
+            }
+          }
+        }
+      ],
+      "table_headers": [
+        {
+          "evidence_id": "synthetic-header-0",
+          "start": 0,
+          "end": 9,
+          "text": "虚构构件｜合成观察",
+          "source_path": "synthetic/document/body/table[0]/row[0]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 0
+          }
+        }
+      ],
+      "model_context": {
+        "bridge": "虚构桥梁",
+        "year": "2020"
+      },
+      "unresolved": [],
+      "semantic_approval": false,
+      "excerpts_are_verbatim_not_model_summary": true
+    },
+    "synthetic-fact-04": {
+      "task_id": "synthetic-task-04",
+      "entry_id": "synthetic-entry-04",
+      "section": "基本信息",
+      "field": "合成观察",
+      "candidate_value": "虚构桥梁试验段 5 的合成观察",
+      "source_refs": [
+        {
+          "evidence_id": "synthetic-row-04",
+          "start": 0,
+          "end": 1368
+        }
+      ],
+      "source_excerpts": [
+        {
+          "evidence_id": "synthetic-row-04",
+          "start": 0,
+          "end": 1368,
+          "text": "第00项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第01项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第02项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第03项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第04项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第05项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第06项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第07项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第08项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第09项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第10项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第11项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第12项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第13项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第14项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第15项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第16项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第17项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第18项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第19项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第20项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第21项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第22项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第23项合成描述：虚构桥梁测试构件的检测位置为第5跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n",
+          "source_path": "synthetic/document/body/table[0]/row[5]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 5,
+            "cells": [
+              "虚构构件",
+              "虚构桥梁试验段 5 的合成观察"
+            ],
+            "context": {
+              "year": "2020"
+            }
+          }
+        }
+      ],
+      "table_headers": [
+        {
+          "evidence_id": "synthetic-header-0",
+          "start": 0,
+          "end": 9,
+          "text": "虚构构件｜合成观察",
+          "source_path": "synthetic/document/body/table[0]/row[0]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 0
+          }
+        }
+      ],
+      "model_context": {
+        "bridge": "虚构桥梁",
+        "year": "2020"
+      },
+      "unresolved": [],
+      "semantic_approval": false,
+      "excerpts_are_verbatim_not_model_summary": true
+    },
+    "synthetic-fact-05": {
+      "task_id": "synthetic-task-05",
+      "entry_id": "synthetic-entry-05",
+      "section": "基本信息",
+      "field": "合成观察",
+      "candidate_value": "虚构桥梁试验段 6 的合成观察",
+      "source_refs": [
+        {
+          "evidence_id": "synthetic-row-05",
+          "start": 0,
+          "end": 1368
+        }
+      ],
+      "source_excerpts": [
+        {
+          "evidence_id": "synthetic-row-05",
+          "start": 0,
+          "end": 1368,
+          "text": "第00项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第01项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第02项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第03项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第04项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第05项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第06项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第07项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第08项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第09项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第10项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第11项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第12项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第13项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第14项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第15项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第16项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第17项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第18项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第19项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第20项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第21项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第22项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第23项合成描述：虚构桥梁测试构件的检测位置为第6跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n",
+          "source_path": "synthetic/document/body/table[0]/row[6]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 6,
+            "cells": [
+              "虚构构件",
+              "虚构桥梁试验段 6 的合成观察"
+            ],
+            "context": {
+              "year": "2020"
+            }
+          }
+        }
+      ],
+      "table_headers": [
+        {
+          "evidence_id": "synthetic-header-0",
+          "start": 0,
+          "end": 9,
+          "text": "虚构构件｜合成观察",
+          "source_path": "synthetic/document/body/table[0]/row[0]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 0
+          }
+        }
+      ],
+      "model_context": {
+        "bridge": "虚构桥梁",
+        "year": "2020"
+      },
+      "unresolved": [],
+      "semantic_approval": false,
+      "excerpts_are_verbatim_not_model_summary": true
+    },
+    "synthetic-fact-06": {
+      "task_id": "synthetic-task-06",
+      "entry_id": "synthetic-entry-06",
+      "section": "基本信息",
+      "field": "合成观察",
+      "candidate_value": "虚构桥梁试验段 7 的合成观察",
+      "source_refs": [
+        {
+          "evidence_id": "synthetic-row-06",
+          "start": 0,
+          "end": 1368
+        }
+      ],
+      "source_excerpts": [
+        {
+          "evidence_id": "synthetic-row-06",
+          "start": 0,
+          "end": 1368,
+          "text": "第00项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第01项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第02项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第03项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第04项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第05项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第06项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第07项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第08项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第09项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第10项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第11项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第12项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第13项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第14项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第15项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第16项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第17项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第18项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第19项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第20项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第21项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第22项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第23项合成描述：虚构桥梁测试构件的检测位置为第7跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n",
+          "source_path": "synthetic/document/body/table[0]/row[7]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 7,
+            "cells": [
+              "虚构构件",
+              "虚构桥梁试验段 7 的合成观察"
+            ],
+            "context": {
+              "year": "2020"
+            }
+          }
+        }
+      ],
+      "table_headers": [
+        {
+          "evidence_id": "synthetic-header-0",
+          "start": 0,
+          "end": 9,
+          "text": "虚构构件｜合成观察",
+          "source_path": "synthetic/document/body/table[0]/row[0]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 0
+          }
+        }
+      ],
+      "model_context": {
+        "bridge": "虚构桥梁",
+        "year": "2020"
+      },
+      "unresolved": [],
+      "semantic_approval": false,
+      "excerpts_are_verbatim_not_model_summary": true
+    },
+    "synthetic-fact-07": {
+      "task_id": "synthetic-task-07",
+      "entry_id": "synthetic-entry-07",
+      "section": "基本信息",
+      "field": "合成观察",
+      "candidate_value": "虚构桥梁试验段 8 的合成观察",
+      "source_refs": [
+        {
+          "evidence_id": "synthetic-row-07",
+          "start": 0,
+          "end": 1368
+        }
+      ],
+      "source_excerpts": [
+        {
+          "evidence_id": "synthetic-row-07",
+          "start": 0,
+          "end": 1368,
+          "text": "第00项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第01项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第02项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第03项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第04项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第05项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第06项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第07项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第08项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第09项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第10项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第11项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第12项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第13项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第14项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第15项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第16项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第17项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第18项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第19项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第20项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第21项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第22项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第23项合成描述：虚构桥梁测试构件的检测位置为第8跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n",
+          "source_path": "synthetic/document/body/table[0]/row[8]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 8,
+            "cells": [
+              "虚构构件",
+              "虚构桥梁试验段 8 的合成观察"
+            ],
+            "context": {
+              "year": "2020"
+            }
+          }
+        }
+      ],
+      "table_headers": [
+        {
+          "evidence_id": "synthetic-header-0",
+          "start": 0,
+          "end": 9,
+          "text": "虚构构件｜合成观察",
+          "source_path": "synthetic/document/body/table[0]/row[0]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 0
+          }
+        }
+      ],
+      "model_context": {
+        "bridge": "虚构桥梁",
+        "year": "2020"
+      },
+      "unresolved": [],
+      "semantic_approval": false,
+      "excerpts_are_verbatim_not_model_summary": true
+    },
+    "synthetic-fact-08": {
+      "task_id": "synthetic-task-08",
+      "entry_id": "synthetic-entry-08",
+      "section": "基本信息",
+      "field": "合成观察",
+      "candidate_value": "虚构桥梁试验段 9 的合成观察",
+      "source_refs": [
+        {
+          "evidence_id": "synthetic-row-08",
+          "start": 0,
+          "end": 1368
+        }
+      ],
+      "source_excerpts": [
+        {
+          "evidence_id": "synthetic-row-08",
+          "start": 0,
+          "end": 1368,
+          "text": "第00项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第01项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第02项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第03项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第04项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第05项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第06项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第07项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第08项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第09项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第10项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第11项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第12项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第13项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第14项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第15项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第16项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第17项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第18项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第19项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第20项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第21项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第22项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第23项合成描述：虚构桥梁测试构件的检测位置为第9跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n",
+          "source_path": "synthetic/document/body/table[0]/row[9]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 9,
+            "cells": [
+              "虚构构件",
+              "虚构桥梁试验段 9 的合成观察"
+            ],
+            "context": {
+              "year": "2020"
+            }
+          }
+        }
+      ],
+      "table_headers": [
+        {
+          "evidence_id": "synthetic-header-0",
+          "start": 0,
+          "end": 9,
+          "text": "虚构构件｜合成观察",
+          "source_path": "synthetic/document/body/table[0]/row[0]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 0
+          }
+        }
+      ],
+      "model_context": {
+        "bridge": "虚构桥梁",
+        "year": "2020"
+      },
+      "unresolved": [],
+      "semantic_approval": false,
+      "excerpts_are_verbatim_not_model_summary": true
+    },
+    "synthetic-fact-09": {
+      "task_id": "synthetic-task-09",
+      "entry_id": "synthetic-entry-09",
+      "section": "基本信息",
+      "field": "合成观察",
+      "candidate_value": "虚构桥梁试验段 10 的合成观察",
+      "source_refs": [
+        {
+          "evidence_id": "synthetic-row-09",
+          "start": 0,
+          "end": 1392
+        }
+      ],
+      "source_excerpts": [
+        {
+          "evidence_id": "synthetic-row-09",
+          "start": 0,
+          "end": 1392,
+          "text": "第00项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第01项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第02项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第03项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第04项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第05项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第06项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第07项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第08项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第09项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第10项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第11项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第12项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第13项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第14项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第15项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第16项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第17项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第18项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第19项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第20项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第21项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第22项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n第23项合成描述：虚构桥梁测试构件的检测位置为第10跨；本段只用于程序回归。Unicode 边界：😀、é、甲乙。\n",
+          "source_path": "synthetic/document/body/table[0]/row[10]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 10,
+            "cells": [
+              "虚构构件",
+              "虚构桥梁试验段 10 的合成观察"
+            ],
+            "context": {
+              "year": "2020"
+            }
+          }
+        }
+      ],
+      "table_headers": [
+        {
+          "evidence_id": "synthetic-header-0",
+          "start": 0,
+          "end": 9,
+          "text": "虚构构件｜合成观察",
+          "source_path": "synthetic/document/body/table[0]/row[0]",
+          "source_metadata": {
+            "table_id": "synthetic-table-0",
+            "row_index": 0
+          }
+        }
+      ],
+      "model_context": {
+        "bridge": "虚构桥梁",
+        "year": "2020"
+      },
+      "unresolved": [],
+      "semantic_approval": false,
+      "excerpts_are_verbatim_not_model_summary": true
+    }
+  },
+  "workspace_page_input": {
+    "version": 17,
+    "items": [
+      {
+        "id": "synthetic-fact-00",
+        "value": "虚构桥梁试验段 1 的合成观察",
+        "source_refs": [
+          {
+            "evidence_id": "synthetic-row-00",
+            "start": 0,
+            "end": 1368
+          }
+        ],
+        "record_version": 17,
+        "valid": true
+      },
+      {
+        "id": "synthetic-fact-01",
+        "value": "虚构桥梁试验段 2 的合成观察",
+        "source_refs": [
+          {
+            "evidence_id": "synthetic-row-01",
+            "start": 0,
+            "end": 1368
+          }
+        ],
+        "record_version": 17,
+        "valid": true
+      },
+      {
+        "id": "synthetic-fact-02",
+        "value": "虚构桥梁试验段 3 的合成观察",
+        "source_refs": [
+          {
+            "evidence_id": "synthetic-row-02",
+            "start": 0,
+            "end": 1368
+          }
+        ],
+        "record_version": 17,
+        "valid": true
+      },
+      {
+        "id": "synthetic-fact-03",
+        "value": "虚构桥梁试验段 4 的合成观察",
+        "source_refs": [
+          {
+            "evidence_id": "synthetic-row-03",
+            "start": 0,
+            "end": 1368
+          }
+        ],
+        "record_version": 17,
+        "valid": true
+      },
+      {
+        "id": "synthetic-fact-04",
+        "value": "虚构桥梁试验段 5 的合成观察",
+        "source_refs": [
+          {
+            "evidence_id": "synthetic-row-04",
+            "start": 0,
+            "end": 1368
+          }
+        ],
+        "record_version": 17,
+        "valid": true
+      },
+      {
+        "id": "synthetic-fact-05",
+        "value": "虚构桥梁试验段 6 的合成观察",
+        "source_refs": [
+          {
+            "evidence_id": "synthetic-row-05",
+            "start": 0,
+            "end": 1368
+          }
+        ],
+        "record_version": 17,
+        "valid": true
+      },
+      {
+        "id": "synthetic-fact-06",
+        "value": "虚构桥梁试验段 7 的合成观察",
+        "source_refs": [
+          {
+            "evidence_id": "synthetic-row-06",
+            "start": 0,
+            "end": 1368
+          }
+        ],
+        "record_version": 17,
+        "valid": true
+      },
+      {
+        "id": "synthetic-fact-07",
+        "value": "虚构桥梁试验段 8 的合成观察",
+        "source_refs": [
+          {
+            "evidence_id": "synthetic-row-07",
+            "start": 0,
+            "end": 1368
+          }
+        ],
+        "record_version": 17,
+        "valid": true
+      },
+      {
+        "id": "synthetic-fact-08",
+        "value": "虚构桥梁试验段 9 的合成观察",
+        "source_refs": [
+          {
+            "evidence_id": "synthetic-row-08",
+            "start": 0,
+            "end": 1368
+          }
+        ],
+        "record_version": 17,
+        "valid": true
+      },
+      {
+        "id": "synthetic-fact-09",
+        "value": "虚构桥梁试验段 10 的合成观察",
+        "source_refs": [
+          {
+            "evidence_id": "synthetic-row-09",
+            "start": 0,
+            "end": 1392
+          }
+        ],
+        "record_version": 17,
+        "valid": true
+      }
+    ]
+  }
+}

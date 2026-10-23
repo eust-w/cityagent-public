@@ -1,0 +1,13 @@
+# Optional environment for scripts/train_lora.py; not a PPU compatibility claim.
+# Install a CUDA-compatible torch>=2.9 separately before actual training; constrain
+# its exact version while installing this file to prevent transitive replacement.
+# These API minimums match the maintained NVIDIA toolchain, not a recovered lock
+# of a historical deployment. Default prepare-only loads a local tokenizer only.
+transformers>=5.18,<6
+accelerate>=1.15,<2
+peft>=0.21.2,<1
+packaging>=24
+safetensors>=0.4.5,<1
+
+# Optional --use-liger-kernel: install liger-kernel>=0.8.4,<1 in this environment.
+# It is disabled by default and must be validated for the chosen model class.
