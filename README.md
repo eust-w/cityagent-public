@@ -14,7 +14,19 @@ CityAgent 解析 Word 桥梁定期检测报告，抽取**基本信息、病害�
 
 仓库开放文档处理与推理代码，也包含 **SFT 数据准备、LoRA 训练、模型合并、W8A8 量化导出、评测与消融实验**。你可以先用无需模型的离线示例体验完整流程，再接入自有模型和数据。
 
-[快速开始](#快速开始) · [训练](docs/training.md) · [量化](docs/quantization.md) · [实验评测](docs/experiments.md) · [答辩精选](docs/competition.md) · [架构](docs/architecture.md)
+[项目视频](#项目介绍视频) · [快速开始](#快速开始) · [训练](docs/training.md) · [量化](docs/quantization.md) · [实验评测](docs/experiments.md) · [答辩精选](docs/competition.md) · [架构](docs/architecture.md)
+
+## 项目介绍视频
+
+约 **82 秒**了解 CityAgent：获奖项目、文档智能与开源工具。
+
+[![播放 CityAgent 项目介绍：获奖项目、文档智能与开源工具](docs/assets/showcase/cover.png)](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro-horizontal-1080p.mp4)
+
+**[▶ 观看横版介绍](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro-horizontal-1080p.mp4)** · [手机竖版](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro-vertical-1080p.mp4) · [中文字幕](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro.zh-CN.srt) · [English subtitles](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro.en.srt) · [视频下载与说明](https://github.com/eust-w/cityagent-public/releases/tag/showcase-20261025)
+
+从桥梁定检报告到三张结构化表，了解文档处理、来源追溯、长报告任务和恢复机制。视频展示蜗牛战队获奖项目的答辩首页，也介绍已开源的训练、量化与评测工具。可以先运行无需模型的虚构报告示例；真实数据和模型权重需自行准备，RSI 默认关闭。
+
+视频使用合成旁白、原创程序合成轻配乐、公开答辩封面与流程示意。代码采用 Apache-2.0；视频中的答辩图片与第三方标识不包含在代码许可中，使用范围见[视频素材说明](docs/assets/showcase/README.md)。
 
 ## 能做什么
 
