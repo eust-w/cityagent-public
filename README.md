@@ -22,7 +22,9 @@ CityAgent 解析 Word 桥梁定期检测报告，抽取**基本信息、病害�
 
 [![播放 CityAgent 项目介绍：获奖项目、文档智能与开源工具](docs/assets/showcase/cover.png)](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro-horizontal-1080p.mp4)
 
-**在线观看：[B站](https://www.bilibili.com/video/BV15wH569EWp/) · [抖音](https://www.douyin.com/video/7700674738070244617) · [视频号（微信扫码）](https://weixin.qq.com/sph/AUwtuFBmx) · [YouTube](https://youtu.be/qCNVNKoxxwQ) · [X](https://x.com/eustancewu/status/2114311579089182857)**
+**在线观看：[B站](https://www.bilibili.com/video/BV15wH569EWp/) · [抖音](https://www.douyin.com/video/7700674738070244617) · [视频号（微信扫码）](https://weixin.qq.com/sph/AUwtuFBmx) · [YouTube](https://youtu.be/qCNVNKoxxwQ) · [X](https://x.com/eustancewu/status/2114311579089182857) · [小红书（需登录或 App 打开）](https://www.xiaohongshu.com/discovery/item/6adde3140000000033009ddc?source=webshare&xhsshare=pc_web&xsec_token=ABhAYYDTQvC_YrDLFshO1Z8DbzouDZqM9U1mw0gQqm4Bg=&xsec_source=pc_share)**
+
+小红书网页的登录与访问受平台限制；如无法直接观看，请登录或使用小红书 App 打开。
 
 **[▶ 观看横版介绍](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro-horizontal-1080p.mp4)** · [手机竖版](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro-vertical-1080p.mp4) · [中文字幕](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro.zh-CN.srt) · [English subtitles](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro.en.srt) · [视频下载与说明](https://github.com/eust-w/cityagent-public/releases/tag/showcase-20261025)
 
