@@ -22,6 +22,8 @@ CityAgent 解析 Word 桥梁定期检测报告，抽取**基本信息、病害�
 
 [![播放 CityAgent 项目介绍：获奖项目、文档智能与开源工具](docs/assets/showcase/cover.png)](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro-horizontal-1080p.mp4)
 
+**在线观看：[YouTube](https://youtu.be/qCNVNKoxxwQ) · [X](https://x.com/eustancewu/status/2114311579089182857)**
+
 **[▶ 观看横版介绍](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro-horizontal-1080p.mp4)** · [手机竖版](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro-vertical-1080p.mp4) · [中文字幕](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro.zh-CN.srt) · [English subtitles](https://github.com/eust-w/cityagent-public/releases/download/showcase-20261025/CityAgent-intro.en.srt) · [视频下载与说明](https://github.com/eust-w/cityagent-public/releases/tag/showcase-20261025)
 
 从桥梁定检报告到三张结构化表，了解文档处理、来源追溯、长报告任务和恢复机制。视频展示蜗牛战队获奖项目的答辩首页，也介绍已开源的训练、量化与评测工具。可以先运行无需模型的虚构报告示例；真实数据和模型权重需自行准备，RSI 默认关闭。
